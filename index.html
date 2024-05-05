@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Age Calculator App</title>
+</head>
+<body>
+  <div class="card">
+    <form class="needs-validation">
+      <div class="inputs">
+        <div class="item-form day-input">
+          <label for="day">Day</label>
+          <input type="number" name="day" id="day" placeholder="DD">
+          <span class="message-invalid-value">Must be a valid day</span>
+        </div>
+        <div class="item-form month-input">
+          <label for="month">Month</label>
+          <input type="number" name="month" id="month" placeholder="MM">
+          <span class="message-invalid-value">Must be a valid month</span>
+        </div>
+        <div class="item-form year-input">
+          <label for="year">Year</label>
+          <input type="number" name="year" id="year" placeholder="YYYY">
+          <span class="message-invalid-value">Must be in the past</span>
+        </div>
+      </div>
+      <button class="submit" type="button" onclick="handleSubmit()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44">
+          <g fill="none" stroke="#FFF" stroke-width="2">
+            <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+          </g>
+        </svg>
+      </button>
+    </form>
+    <p class="result-text"><span class="result-text--years">--</span> years</p>
+    <p class="result-text" ><span class="result-text--months">--</span> months</p>
+    <p class="result-text"><span class="result-text--days">--</span> days</p>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>

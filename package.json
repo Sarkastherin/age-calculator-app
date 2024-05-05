@@ -1,0 +1,23 @@
+{
+  "name": "age-calculator-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarkastherin/age-calculator-app.git"
+  },
+  "keywords": [],
+  "author": "Katherin Guerrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarkastherin/age-calculator-app/issues"
+  },
+  "homepage": "https://github.com/Sarkastherin/age-calculator-app#readme",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
